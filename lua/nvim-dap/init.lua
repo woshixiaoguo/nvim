@@ -1,0 +1,5 @@
+require "nvim-dap.config-dapui"
+require "nvim-dap.mason-nvim-dap"
+require "nvim-dap.dap-lua"
+require "nvim-dap.dap-dart"
+require "nvim-dap.dap-virtual-text"
