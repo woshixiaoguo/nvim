@@ -20,7 +20,7 @@ map("n", ";c", "<C-w>c", opt)
 -- 关闭其他
 map("n", ";o", "<C-w>o", opt)
 -- Mac 下option + hjkl  窗口之间跳转
-map("n", "∑", "<C-w>w", opt)
+map("n", ";w", "<C-w>w", opt)
 map("n", "˙", "<C-w>h", opt)
 map("n", "∆", "<C-w>j", opt)
 map("n", "˚", "<C-w>k", opt)
@@ -57,8 +57,9 @@ map("v", "p", '"_dP', opt)
 
 -- 退出
 --map("n", "q", ":qa<CR>", opt)
+map("i", "jk", "<ESC>", opt)
 map("n", "qq", ":q!<CR>", opt)
-map("n", "ww", ":w<CR>", opt)
+map("i", "ww", ":w<CR>", opt)
 map("n", "Q", ":qa!<CR>", opt)
 
 -- insert 模式下，跳到行首行尾
